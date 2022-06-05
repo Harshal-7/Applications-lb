@@ -1,4 +1,4 @@
-// Singly Circular Linked List CUI APPLICATION
+// Singly Circular Linked List CUI APPLICATION (MENU DRIVEN APPLICATION)
 
 #include<iostream>
 using namespace std;

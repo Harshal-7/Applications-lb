@@ -36,7 +36,7 @@ public class program126
         
         iLength = sobj.nextInt();
 
-        ArrayXX obj = new ArrayXX(iLength);
+        ArrayXX obj = new ArrayXX();
 
         obj.Accept();
         obj.Display();

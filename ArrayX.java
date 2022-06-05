@@ -5,7 +5,7 @@ import java.util.*;
 
 public class ArrayX
 {
-    protected int Arr[];
+    public int Arr[];
     
     public ArrayX(int iNo)
     {
