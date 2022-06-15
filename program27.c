@@ -5,10 +5,12 @@ bool CheckPerfect(int iNo)
 {
     int iCnt = 0;
     int iSum = 0;
+
     if(iNo < 0)
     {
         iNo = -iNo;
     }
+    
     for(iCnt = (iNo/2); ((iCnt >= 1) && (iSum <= iNo)); iCnt--) // loop start from backwords so it's going to stop soon
     {
         if((iNo % iCnt) == 0)
