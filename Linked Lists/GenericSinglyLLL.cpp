@@ -316,7 +316,7 @@ int main()
                     break;
                 
                 case 5:
-                    obj1.DeleteFirst();
+                    obj1.DeleteLast();
                     break;
                 
                 case 6:
@@ -393,7 +393,7 @@ int main()
                     break;
                 
                 case 5:
-                    obj2.DeleteFirst();
+                    obj2.DeleteLast();
                     break;
                 
                 case 6:
@@ -470,7 +470,7 @@ int main()
                     break;
                 
                 case 5:
-                    obj3.DeleteFirst();
+                    obj3.DeleteLast();
                     break;
                 
                 case 6:
