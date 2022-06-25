@@ -5,45 +5,45 @@
 #include<unistd.h>
 #include<fcntl.h>
 
+#define FILESIZE 1024
+
 int CountWhiteSpace(char FName[])
 {
-    int fd = 0;
-    int iRet = 0;
-    int iCnt = 0;
-    char Data[100];
-    char *ptr = Data;
+    int fd = 0, iRet = 0, i = 0, iCnt = 0;
+    char Data[FILESIZE];
 
     fd = open(FName,O_RDONLY);
-
-    iRet = read(fd,Data,sizeof(Data));
-
-    while(*ptr != '\0')
+    if(fd == -1)
     {
-        if(*ptr == ' ')
+        printf("Unable to open file\n");
+        return -1;
+    }
+
+    while((iRet = read(fd,Data,FILESIZE)) != 0)
+    {
+        for(i = 0; i < iRet; i++)
         {
-            iCnt++;
+            if(Data[i] == ' ')
+            {
+                iCnt++;
+            }
         }
-        ptr++;
     }
 
     close(fd);
-
     return iCnt;
-
-
 }
 
 int main()
 {
-    char FileName[30];
+    char FileName[20];
     int iRet = 0;
 
-    printf("Enter file Name\n");
+    printf("Enter file name: \n");
     scanf("%s",FileName);
 
     iRet = CountWhiteSpace(FileName);
-
-    printf("Number of White Spaces are : %d\n",iRet);
+    printf("Number of White Spaces are: %d\n",iRet);
 
     return 0;
 }

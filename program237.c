@@ -35,3 +35,8 @@ int main()
 
     return 0;
 }
+/*
+
+read & write chi return value bytes madhe
+
+*/

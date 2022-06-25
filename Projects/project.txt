@@ -1,0 +1,30 @@
+CVFS(custize virtual file system) research oriented project
+kernel level la jaun kaam krto (low level)
+
+
+
+stl (standard template library) chi copy (in c++ madhe ahe)
+ani jaav madhe (collection framework) chi copy
+
+own stl tayar kel ahe
+
+// ka tayar kela:-(DS vr ques vicharnar)
+
+this project is influenced from stl
+
+redimed function provided by the strostrup
+
+ka kela:-
+this project is u
+i want to lean
+	for rechearch orienterd purpose
+
+my project contains some more functionallity as compared to stl
+
+in my  project  Search Frequency Occurance are there
+
+
+(im form non-it  so me vichar kela hyanchya sarkh keeaych ka intresting ahe kalal )
+
+(java bgitl collection mg me c++ madhe check kel hoti mg try kruyat mhanal)
+
