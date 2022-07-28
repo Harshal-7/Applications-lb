@@ -41,7 +41,7 @@ class Array implements MarvellousSort
         System.out.println("\n");
     }
 
-    public void BubbleSort()
+    public void BubbleSort()    // last element gets fixed each iteration & small elements comes forward
     {
         int i = 0, j = 0, temp = 0;
         boolean Swap = false;
@@ -72,7 +72,7 @@ class Array implements MarvellousSort
 
     }
 
-    public void InsertionSort()
+    public void InsertionSort()     // cards eg.
     {
         int i = 0, j = 0, selected = 0;
 
