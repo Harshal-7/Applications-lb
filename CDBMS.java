@@ -23,8 +23,9 @@ class Student
 
     public void DisplayData()
     {
+        System.out.println("|   " + this.RID  + "\t|\t" + this.Name + "\t|\t" + this.Salary + " |");
         System.out.println("---------------------------------------");
-        System.out.println("   " + this.RID + "\t\t" + this.Name + "\t\t" + this.Salary);
+
     }
 
 }
@@ -86,6 +87,7 @@ class DBMS
                 }
                 else if("select".equals(tokens[0]) && "*".equals(tokens[1]) && "from".equals(tokens[2]))
                 {
+                    System.out.println("---------------------------------------");
                     DisplayAll();
                 }
                 else

@@ -250,6 +250,8 @@ void GenericDL<T>::Display()
 
     cout << endl;
 
+    cout << "Elements From Linked List are: \n" << endl;
+
     while(temp != NULL)
     {
         cout << "|" << temp->data << "| - ";
@@ -276,11 +278,12 @@ int main()
     float fValue = 0.0;
     char cValue = '\0';
 
-    cout << "\n Choose the Operation : " << endl;
+    cout << "\nChoose the Operation : " << endl;
     cout << "1 : Integer" << endl;
     cout << "2 : Float" << endl;
     cout << "3 : Character" << endl;
 
+    cout << "\n> ";
     cin >> iOpr;
     
     if(iOpr == 1)
@@ -302,6 +305,7 @@ int main()
             cout << "8 : Count Nodes" << endl;
             cout << "9 : Terminate The Application" << endl;
 
+            cout << "\n> ";
             cin >> iChoise;
             
             switch(iChoise)
@@ -379,6 +383,7 @@ int main()
             cout << "8 : Count Nodes" << endl;
             cout << "9 : Terminate The Application" << endl;
 
+            cout << "\n> ";
             cin >> fChoise;
             
             switch(fChoise)
@@ -456,6 +461,7 @@ int main()
             cout << "8 : Count Nodes" << endl;
             cout << "9 : Terminate The Application" << endl;
 
+            cout << "\n> ";
             cin >> iChoise;
             
             switch(iChoise)
